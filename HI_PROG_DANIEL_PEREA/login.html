@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylecontac.css">
+    <link rel="stylesheet" href="css/normalize.css">
+        <!-- GOOGLE FONTs -->
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <!-- FONT AWESOME -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <!-- ANIMATE CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <script src="https://kit.fontawesome.com/a7daddc7d9.js" crossorigin="anonymous"></script>
+
+    <title>LOG IN</title>
+</head>
+<body>
+
+    <div id="top">
+        <div id="menunav">
+            <div class="navega"><span><a class="anav" href="index.php"> <strong> HOME</strong></a></span></div>
+            <div class="navega"><span><a class="anav" href="login.html"><strong>Iniciar sesión</strong></a></span></div>
+            <div class="navega"><span><a class="anav" href="registro.html"><strong>Registrarse</strong></a></span></div>
+        </div>
+    </div>     
+<!-- formulario -->
+
+<div class="content">
+
+  <h1 class="logo">LOG<span> IN</span></h1>
+
+  <div class="contact-wrapper animated bounceInUp">
+      <div class="contact-form">
+          <h3>INICIA SESIÓN</h3>
+          <form action="modelo/login_controler.php" method="post">
+              <p>
+                  <label>usuario</label>
+                  <input type="text" name="name">
+              </p>
+              <p>
+                <label>Contraseña</label>
+                <input type="password" name="password">
+            </p>
+              <p class="block">
+                  <button type="submit">
+                      Inicia sesion
+                  </button>
+              </p>
+          </form>
+      </div>
+      <div class="contact-info">
+          <h4>Mas información</h4>
+          <ul>
+              <li><i class="fas fa-map-marker-alt"></i> CampusFP Humanes</li>
+              <li><i class="fas fa-phone"></i> (+34) 123 456 789</li>
+              <li><i class="fas fa-envelope-open-text"></i> contacto@campusfp.com</li>
+          </ul>
+          <p>CampusFP es un centro de formación profesional distinto a los demás, como nos gusta decir “CampusFP es otro rollo”.
+
+            Para CampusFP es muy importante dotar al alumnado de herramientas y recursos que faciliten su aprendizaje, y que este aprendizaje vaya enfocado en todo momento a garantizar la empleabilidad.</p>
+          <p>CampusFP.com</p>
+      </div>
+  </div>
+
+</div>
+
+
+
+   <footer class="abajo">
+     <img src="foto/Captura de pantalla 2023-02-07 124004-PhotoRoom.png-PhotoRoom.png" alt="" class="logo">
+     <div class="social-icons-container">
+         <a href="https://es-es.facebook.com/" class="social-icon"></a>
+         <a href="https://www.instagram.com/" class="social-icon"></a>
+         <a href="https://twitter.com/?lang=es" class="social-icon"></a>
+         <a href="https://es.linkedin.com/?src=go-pa&trk=sem-ga_campid.18146679037_asid.140850334975_crid.619061882347_kw.linkedin_d.c_tid.kwd-148086543_n.g_mt.e_geo.9049081&mcid=6968657504633266178&cid=&gclid=CjwKCAiArY2fBhB9EiwAWqHK6vlIGiC0VRmICaoxC0hU02Qy5HfYYP6Os0SDSqkIMV4UeDodlJ_KzhoCfGcQAvD_BwE&gclsrc=aw.ds" class="social-icon"></a>
+     </div>
+     <ul class="footer-menu-container">
+         <li class="menu-item">Legal</li>
+         <li class="menu-item">Cookies</li>
+         <li class="menu-item">Privacidad</li>
+         <li class="menu-item">Contacto</li>
+         <li class="menu-item">Formación</li>
+     </ul>
+     <span class="copyright">&copy;2023, ©copyright. All rights reserved.</span>
+   </footer>
+
+</body>
+</html>
